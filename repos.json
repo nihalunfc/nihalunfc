@@ -1,0 +1,56 @@
+{
+  "_note": "Repositories shown in the profile README. Only finished or in-progress work goes here. status: 'In progress' or 'Completed'. Start and last-updated dates come from GitHub automatically. Optional: demo (link), demo_label (default 'Write-up'), language (overrides GitHub's guess).",
+  "repos": [
+    {
+      "name": "hotel-business",
+      "title": "Hospitality BI portfolio",
+      "what": "Star-schema warehouse of 640k bookings, 10 data-quality checks, revenue command centre, staff schedule builder",
+      "status": "In progress",
+      "demo": "https://nihalsulaiman.com/projects/hospitality-bi/overview/",
+      "demo_label": "Live",
+      "language": "Python, SQL"
+    },
+    {
+      "name": "nihalunfc.github.io",
+      "title": "nihalsulaiman.com",
+      "what": "Portfolio, blog, free BI tools and a 7-week ETL course (Astro, GitHub Actions)",
+      "status": "In progress",
+      "demo": "https://nihalsulaiman.com/",
+      "demo_label": "Live",
+      "language": "Astro"
+    },
+    {
+      "name": "GDGCHackathon2026",
+      "title": "WARL wildfire drone swarm",
+      "what": "Deep Q-learning drone swarm with a live map dashboard and a Gemini explainer chatbot (hackathon)",
+      "status": "Completed",
+      "demo": "https://nihalsulaiman.com/projects/warl-wildfire/"
+    },
+    {
+      "name": "kaggle",
+      "title": "Kaggle competitions",
+      "what": "Notebooks for live competitions: Name That LLM, Squares in Squares, Smart Buildings",
+      "status": "In progress",
+      "demo": "https://nihalsulaiman.com/projects/kaggle/"
+    },
+    {
+      "name": "CASMI-2026",
+      "title": "Enveda CASMI 2026",
+      "what": "Molecule identification from mass spectra, with a leak-free 300-structure hold-out",
+      "status": "In progress",
+      "demo": "https://nihalsulaiman.com/projects/casmi-2026/"
+    },
+    {
+      "name": "MALLORN-TDE-Classification",
+      "title": "MALLORN TDE classification",
+      "what": "Physics-informed features to classify tidal disruption events; top 15% finish",
+      "status": "Completed"
+    },
+    {
+      "name": "cafa-protein-deep-learning",
+      "title": "CAFA protein function",
+      "what": "Memory-safe pipeline using the ESM-2 transformer for multi-label protein function prediction",
+      "status": "Completed"
+    }
+  ]
+}
