@@ -8,7 +8,7 @@ Niagara Falls, Ontario · open to roles anywhere in Ontario · available now
 <a href="https://nihalsulaiman.com/"><img src="https://img.shields.io/badge/Portfolio-nihalsulaiman.com-0f172a?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/vsnihal/"><img src="https://img.shields.io/badge/LinkedIn-vsnihal-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
 <a href="https://www.kaggle.com/vsnihal"><img src="https://img.shields.io/badge/Kaggle-vsnihal-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"></a>
-<a href="https://nihalsulaiman.com/cv/"><img src="https://img.shields.io/badge/CV-read%20online-16a34a?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV"></a>
+<a href="https://nihalsulaiman.com/nihal-sulaiman-cv.pdf"><img src="https://img.shields.io/badge/CV-PDF-16a34a?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV"></a>
 <a href="https://nihalsulaiman.com/contact/"><img src="https://img.shields.io/badge/Contact-get%20in%20touch-f59e0b?style=for-the-badge&logo=maildotru&logoColor=white" alt="Contact"></a>
 
 </div>
@@ -24,8 +24,8 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 | | |
 | :-- | :-- |
 | 💼 **Now** | Data Engineer (remote) at Shipd by DataCurve, building training data and verified coding challenges for AI coding agents |
-| 🛠️ **Building** | Turning my BI tools into real ETL pipelines on Azure SQL Database; retail and restaurant editions of the toolkit |
-| 📚 **Learning** | T-SQL, Power BI / DAX and dbt |
+| 🛠️ **Building** | [Self-healing pipelines](https://nihalsulaiman.com/projects/self-healing-pipelines/): a decentralised crew of AI agents that fixes ETL failures (MIT); turning my BI tools into real ETL pipelines on Azure SQL Database |
+| 📚 **Learning** | T-SQL, Power BI / DAX and dbt; Spark, Google Cloud and Kafka through my own [Data at Scale](https://nihalsulaiman.com/learn/big-data-cloud/) course |
 | 🎯 **Looking for** | Data analyst, BI developer, data engineer or data science roles in Ontario (full-time, part-time or internship) |
 
 ---
