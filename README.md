@@ -32,32 +32,58 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 
 ## 🚀 Featured projects
 
+<!-- FEATURED:START -->
 | Project | Field | Status | Started | Last updated | Links |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **Business intelligence toolkit**<br><sub>One warehouse model, ten data-quality checks and a dozen decision tools for pricing, forecasting, scheduling and reporting, fitted to each sector as an edition.</sub> | Hospitality, retail next | ![In progress](https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square) | Feb 2026 | Nov 2026 | [Live dashboard](https://nihalsulaiman.com/tools/revenue-command-centre/hotels/) · [Code](https://github.com/nihalunfc/hotel-business) |
-| **Hospitality BI warehouse**<br><sub>640,000 bookings across five hotels over four years: occupancy, ADR, RevPAR, pace against last year, back-tested demand forecast, staff schedule builder (PuLP).</sub> | Hospitality | ![Live](https://img.shields.io/badge/-Live-16a34a?style=flat-square) | Feb 2026 | Nov 2026 | [Overview](https://nihalsulaiman.com/projects/hospitality-bi/overview/) · [Code](https://github.com/nihalunfc/hotel-business) |
-| **Swarm Intelligence** ⭐ flagship<br><sub>One multi-agent engine where every battery, drone or hotel system decides for itself and the group still acts as one team. 949 MW grid peak cut, 87% forest saved, $279k hotel energy a year (simulated).</sub> | Energy, crisis, hospitality | ![In progress](https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square) | Jul 2026 | Nov 2026 | [Live demos](https://nihalsulaiman.com/swarm/) |
-| **WARL wildfire drone swarm**<br><sub>Decentralised drones trained with deep Q-learning to reach a fire's choke points, with a live map dashboard and an explainable-AI chatbot. GDG on Campus Build with AI 2026 hackathon.</sub> | Crisis management | ![Completed](https://img.shields.io/badge/-Completed-16a34a?style=flat-square) | Aug 2026 | Sep 2026 | [Write-up](https://nihalsulaiman.com/projects/warl-wildfire/) · [Code](https://github.com/nihalunfc/GDGCHackathon2026) |
-| **Pipeline to Dashboard course**<br><sub>A free 7-week course in ETL, warehousing and BI, 49 lessons, progress kept in the browser.</sub> | Teaching | ![Live](https://img.shields.io/badge/-Live-16a34a?style=flat-square) | Nov 2026 | Nov 2026 | [Start learning](https://nihalsulaiman.com/learn/) |
-| **Doomsday 2026 restudy**<br><sub>Re-ran a famous 1960 <i>Science</i> population paper against 65 years of real data, with out-of-sample tests.</sub> | Science | ![Published](https://img.shields.io/badge/-Published-16a34a?style=flat-square) | Nov 2026 | Nov 2026 | [Read it](https://nihalsulaiman.com/blog/doomsday-2026-restudy/) |
+| **Business intelligence toolkit**<br><sub>One data model, one set of quality checks and a dozen decision tools for pricing, forecasting, scheduling and reporting, built once and fitted to each sector as an edition.</sub> | Hospitality | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Oct 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/tools/revenue-command-centre/hotels/) · [Write-up](https://nihalsulaiman.com/projects/bi-toolkit/) · [Code](https://github.com/nihalunfc/hotel-business) |
+| **Swarm Intelligence ⭐ flagship**<br><sub>One multi-agent engine where every battery, drone or hotel system decides for itself and the group still acts as one team. 949 MW simulated peak cut; $279k yearly hotel energy saving (simulated); 87% forest saved in test scenarios.</sub> | Crisis management, Energy, Hospitality | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Oct 2026 | Nov 2026 | [Grid batteries](https://nihalsulaiman.com/swarm/grid-batteries/) · [Wildfire drones](https://nihalsulaiman.com/swarm/wildfire-drones/) · [Hotel operations](https://nihalsulaiman.com/swarm/hotel-operations/) · [How it works](https://nihalsulaiman.com/swarm/) |
+| **BI toolkit, hospitality edition**<br><sub>A star-schema warehouse of 640,000 bookings, ten automated data-quality checks, a revenue command centre, a staff schedule builder and eleven free tools, built for hotels first.</sub> | Hospitality | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Oct 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/tools/revenue-command-centre/hotels/) · [Write-up](https://nihalsulaiman.com/projects/hospitality-bi/) · [Code](https://github.com/nihalunfc/hotel-business) |
+| **Data at Scale (course)**<br><sub>A readable course in big data, cloud and streaming: Spark and PySpark, Google Cloud (GCS, BigQuery, Dataproc, Airflow), Druid, Bigtable and Elasticsearch, Kafka, data platforms for AI and ML, and how retail media and ad measurement use all of it.</sub> | Teaching | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Nov 2026 | Nov 2026 | [Start learning](https://nihalsulaiman.com/learn/big-data-cloud/) |
+| **Pipeline to Dashboard (course)**<br><sub>A 7-week course in ETL and BI: from pulling data out of email, shared drives and APIs to a warehouse, dbt models and dashboards people trust. Each week ends with a project you can put on GitHub.</sub> | Teaching | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Nov 2026 | Nov 2026 | [Start learning](https://nihalsulaiman.com/learn/etl-course/) |
+| **WARL wildfire drone swarm**<br><sub>Decentralised drones trained with deep Q-learning to route to a fire's choke points, with a live map dashboard and an explainable-AI chatbot. Built for the GDG on Campus Build with AI 2026 hackathon.</sub> | Crisis management | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Sep 2026 | Sep 2026 | [Live](https://nihalsulaiman.com/swarm/wildfire-drones/) · [Write-up](https://nihalsulaiman.com/projects/warl-wildfire/) · [Code](https://github.com/nihalunfc/GDGCHackathon2026) |
+<!-- FEATURED:END -->
+
+## 🕒 Recent activity
+
+<!-- ACTIVITY:START -->
+- ✅ **03 Nov 2026** · Portfolio site: [Moved everything onto one site with one URL scheme, and added Swarm, Fields and progress tickers](https://nihalsulaiman.com/sitemap/)
+- ✅ **03 Nov 2026** · Portfolio site: [Added Who it's for, the Learn section with my ETL course, visit counters and a black-and-white theme](https://nihalsulaiman.com/learn/)
+- ✅ **03 Nov 2026** · BI toolkit: [Rewrote every tool for any sector and added the](https://nihalsulaiman.com/tools/)
+- 🔧 **03 Nov 2026** · Portfolio site: [Started this activity log and a card-style home page](https://nihalsulaiman.com/log/)
+- ✅ **03 Nov 2026** · Portfolio site: [Added site search and rebuilt the CV page from my Word CV](https://nihalsulaiman.com/search/)
+- ✅ **03 Nov 2026** · Portfolio site: [Added a contact form, a site map and my photo](https://nihalsulaiman.com/contact/)
+
+<sub>From my <a href="https://nihalsulaiman.com/log/">activity log</a>, where every piece of work is recorded as it happens.</sub>
+<!-- ACTIVITY:END -->
+
+## ✍️ Latest writing
+
+<!-- WRITING:START -->
+- [Doomsday, Friday 13 November 2026: re-running a 1960 Science paper against 65 years of real data](https://nihalsulaiman.com/blog/doomsday-2026-restudy/) <sub>· 05 Nov 2026</sub>
+- [I used a month of GitHub Actions minutes in one evening](https://nihalsulaiman.com/blog/github-actions-minutes/) <sub>· 03 Nov 2026</sub>
+- [When the validation set lies: a leak-free hold-out for CASMI 2026](https://nihalsulaiman.com/blog/leak-free-validation-casmi/) <sub>· 02 Nov 2026</sub>
+
+<sub><a href="https://nihalsulaiman.com/blog/">All posts</a> · <a href="https://nihalsulaiman.com/rss.xml">RSS</a></sub>
+<!-- WRITING:END -->
 
 ## 📦 Repositories
 
-Only finished or in-progress work is listed. Dates come straight from GitHub.
+Only finished or in-progress work is listed. Dates come straight from GitHub, and new projects appear here on their own.
 
 <!-- REPOS:START -->
 | Repository | Status | Language | Started | Last updated | Links |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | **Hospitality BI portfolio**<br><sub>Star-schema warehouse of 640k bookings, 10 data-quality checks, revenue command centre, staff schedule builder</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Python, SQL | Feb 2026 | 05 Nov 2026 | [Code](https://github.com/nihalunfc/hotel-business) · [Live](https://nihalsulaiman.com/projects/hospitality-bi/overview/) |
 | **nihalsulaiman.com**<br><sub>Portfolio, blog, free BI tools and a 7-week ETL course (Astro, GitHub Actions)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro | Oct 2026 | 05 Nov 2026 | [Code](https://github.com/nihalunfc/nihalunfc.github.io) · [Live](https://nihalsulaiman.com/) |
+| **Swarm Intelligence engine**<br><sub>The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Jul 2026 | 03 Nov 2026 | [Code](https://github.com/nihalunfc/swarm-intelligence) · [Live demos](https://nihalsulaiman.com/swarm/) |
 | **Enveda CASMI 2026**<br><sub>Molecule identification from mass spectra, with a leak-free 300-structure hold-out</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Sep 2026 | 19 Sep 2026 | [Code](https://github.com/nihalunfc/CASMI-2026) · [Write-up](https://nihalsulaiman.com/projects/casmi-2026/) |
 | **WARL wildfire drone swarm**<br><sub>Deep Q-learning drone swarm with a live map dashboard and a Gemini explainer chatbot (hackathon)</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Jupyter Notebook | Aug 2026 | 01 Sep 2026 | [Code](https://github.com/nihalunfc/GDGCHackathon2026) · [Write-up](https://nihalsulaiman.com/projects/warl-wildfire/) |
 | **Kaggle competitions**<br><sub>Notebooks for live competitions: Name That LLM, Squares in Squares, Smart Buildings</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | May 2026 | 28 Aug 2026 | [Code](https://github.com/nihalunfc/kaggle) · [Write-up](https://nihalsulaiman.com/projects/kaggle/) |
 | **MALLORN TDE classification**<br><sub>Physics-informed features to classify tidal disruption events; top 15% finish</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Python | Feb 2026 | 01 Feb 2026 | [Code](https://github.com/nihalunfc/MALLORN-TDE-Classification) |
 | **CAFA protein function**<br><sub>Memory-safe pipeline using the ESM-2 transformer for multi-label protein function prediction</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Python | Jan 2026 | 24 Jan 2026 | [Code](https://github.com/nihalunfc/cafa-protein-deep-learning) |
-
-<sub>Dates refresh automatically every week. Last refresh: 05 Nov 2026.</sub>
 <!-- REPOS:END -->
+
+<sub>This page refreshes itself every day from GitHub and <a href="https://nihalsulaiman.com/">nihalsulaiman.com</a>.</sub>
 
 ---
 
