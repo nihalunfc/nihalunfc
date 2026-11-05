@@ -1,5 +1,5 @@
 {
-  "_note": "Repositories shown in the profile README. Only finished or in-progress work goes here. status: 'In progress' or 'Completed'. Start and last-updated dates come from GitHub automatically. Optional: demo (link), demo_label (default 'Write-up'), language (overrides GitHub's guess).",
+  "_note": "Which repositories the profile README shows. 'repos' lists work with a title, a one-line 'what' and a status ('In progress' or 'Completed'); optional demo, demo_label and language. Any other public repo pushed in the last 60 days appears automatically as 'New' until it is listed here or added to 'exclude'. Listed in-progress work with no push for 120 days shows as 'Paused'.",
   "repos": [
     {
       "name": "hotel-business",
@@ -18,6 +18,14 @@
       "demo": "https://nihalsulaiman.com/",
       "demo_label": "Live",
       "language": "Astro"
+    },
+    {
+      "name": "swarm-intelligence",
+      "title": "Swarm Intelligence engine",
+      "what": "The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper",
+      "status": "In progress",
+      "demo": "https://nihalsulaiman.com/swarm/",
+      "demo_label": "Live demos"
     },
     {
       "name": "GDGCHackathon2026",
@@ -52,5 +60,17 @@
       "what": "Memory-safe pipeline using the ESM-2 transformer for multi-label protein function prediction",
       "status": "Completed"
     }
+  ],
+  "exclude": [
+    "numismatics-cards",
+    "public",
+    "unfc",
+    "my-portfolio",
+    "rental-product-rec",
+    "playground-series",
+    "ICDAR",
+    "google-research",
+    "NVIDIA",
+    "NScan"
   ]
 }
