@@ -4,13 +4,18 @@ Fills the marked blocks in README.md:
   FEATURED  projects, Swarm Intelligence and courses from nihalsulaiman.com's content files
   ACTIVITY  the newest entries of the site's activity log (#UpdateLog)
   WRITING   the newest blog posts
+  FIBUB     fibub.com: live tool, Learn, article and course totals, the newest
+            tools, articles and courses, from the fibub repo's content files
+  SHIPPED   the newest merged pull requests across all my public repositories
   REPOS     public repositories: the ones listed in repos.json, plus any new
             public repo with recent pushes; listed work with no push in
             PAUSED_DAYS shows as Paused
 
-The site repo must be checked out next to this one (SITE_DIR, default ./site).
+The site repo must be checked out next to this one (SITE_DIR, default ./site), and
+fibub too (FIBUB_DIR, default ./fibub). A block whose source is missing is left as it is.
 Run by .github/workflows/refresh-readme.yml every day. Locally:
   git clone --depth 1 https://github.com/nihalunfc/nihalunfc.github.io site
+  git clone --depth 1 https://github.com/nihalunfc/fibub fibub
   python scripts/build_readme.py
 """
 import json
@@ -24,10 +29,15 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = Path(os.environ.get("SITE_DIR", ROOT / "site"))
+FIBUB = Path(os.environ.get("FIBUB_DIR", ROOT / "fibub"))
 SITE_URL = "https://nihalsulaiman.com"
+FIBUB_URL = "https://fibub.com"
 OWNER = "nihalunfc"
 NEW_REPO_DAYS = 60   # an unlisted public repo pushed within this many days is shown as new work
 PAUSED_DAYS = 120    # listed in-progress work with no push for this long shows as Paused
+SHIPPED_DAYS = 30    # repos pushed within this many days are checked for merged pull requests
+SHIPPED_ROWS = 10
+SHIPPED_PER_REPO = 3 # so one busy repo cannot fill the whole list
 NOW = datetime.now(timezone.utc)
 
 COLOURS = {"In progress": "2563eb", "Live": "16a34a", "Completed": "16a34a", "Published": "16a34a", "Paused": "6b7280", "New": "7c3aed"}
@@ -69,7 +79,13 @@ def cell(text):
 def frontmatter(path):
     text = path.read_text(encoding="utf-8")
     m = re.match(r"^---\s*\n(.*?)\n---", text, re.S)
-    return (yaml.safe_load(m.group(1)) or {}) if m else {}
+    if not m:
+        return {}
+    try:
+        return yaml.safe_load(m.group(1)) or {}
+    except yaml.YAMLError:
+        print(f"Skipped {path}: frontmatter is not valid YAML")
+        return {}
 
 
 def collection(name):
@@ -83,6 +99,15 @@ def api(path):
         req.add_header("Authorization", f"Bearer {os.environ['GITHUB_TOKEN']}")
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
+
+
+def shown_repos(infos):
+    """Public repos the profile may talk about, with their display titles."""
+    cfg = json.loads((ROOT / "repos.json").read_text())
+    titles = {r["name"]: r["title"] for r in cfg["repos"]}
+    skip = set(cfg.get("exclude", [])) | {OWNER}
+    return [(i, titles.get(i["name"], i["name"])) for i in infos
+            if not (i.get("private") or i.get("fork") or i.get("archived") or i["name"] in skip)]
 
 
 def all_repos():
@@ -158,6 +183,84 @@ def writing(n=3):
     return "\n".join(out)
 
 
+def fibub():
+    """Totals and the newest work on fibub.com, from the fibub repo's content files."""
+    tools, learn = [], 0
+    for guide in (FIBUB / "src" / "tools").glob("*/guide.md"):
+        t = frontmatter(guide)
+        if t.get("status") != "live":
+            continue
+        if t.get("shelf") == "learn":
+            learn += 1
+            continue
+        code = str(t.get("code", ""))
+        n = int(code[1:]) if re.fullmatch(r"T\d+", code) else -1
+        tools.append((n, guide.parent.name, t))
+    counts = {}
+    for _, _, t in tools:
+        counts[t.get("shelf")] = counts.get(t.get("shelf"), 0) + 1
+    shelves = sorted(counts, key=counts.get, reverse=True)
+    shelf_list = ", ".join(shelves[:-1]) + f" and {shelves[-1]}" if len(shelves) > 1 else "".join(shelves)
+
+    articles = []
+    for path in (FIBUB / "src" / "blog").glob("*/*.md"):
+        a = frontmatter(path)
+        if a.get("title") and a.get("updated"):
+            articles.append((as_dt(a["updated"]), path.parent.name, path.stem, a))
+    articles.sort(key=lambda x: (x[0], x[2]), reverse=True)
+
+    courses = []
+    for syllabus in sorted((FIBUB / "src" / "courses").glob("*/syllabus.ts")):
+        text = syllabus.read_text(encoding="utf-8")
+        title = re.search(r"title:\s*'((?:[^'\\]|\\.)*)'", text)
+        planned = len(re.findall(r"\['[\d.]+',\s*'", text))
+        live = len(list(syllabus.parent.glob("*.md")))
+        if title and live:
+            courses.append((syllabus.parent.name, title.group(1).replace("\\'", "'"), live, planned))
+
+    out = [f"**{len(tools):,} free tools** on {len(shelves)} shelves ({shelf_list}), "
+           f"**{learn:,} interactive Learn pages** for school students, **{len(articles):,} articles** and "
+           f"**{len(courses)} free course{'s' if len(courses) != 1 else ''}**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.",
+           "", "| Newest tools | Latest articles |", "| :-- | :-- |"]
+    tools.sort(key=lambda x: x[0], reverse=True)
+    left = [f"[{cell(t['name'])}]({FIBUB_URL}/{t['shelf']}/{tid}/) <sub>#{t['code']}</sub>" for _, tid, t in tools[:5]]
+    right = [f"[{cell(a['title'])}]({FIBUB_URL}/blog/{kind}/{slug}/) <sub>· {day(d)}</sub>" for d, kind, slug, a in articles[:5]]
+    for i in range(max(len(left), len(right))):
+        out.append(f"| {left[i] if i < len(left) else ''} | {right[i] if i < len(right) else ''} |")
+    for cid, title, live, planned in courses:
+        total = f" of {planned}" if planned > live else ""
+        out.append(f"\n📚 **Course:** [{cell(title)}]({FIBUB_URL}/learn/courses/{cid}/) <sub>· {live}{total} lessons live</sub>")
+    out.append(f"\n<sub><a href=\"{FIBUB_URL}/\">fibub.com</a> · <a href=\"https://github.com/{OWNER}/fibub\">Code</a> (Apache 2.0) · <a href=\"{FIBUB_URL}/blog/\">Blog</a></sub>")
+    return "\n".join(out)
+
+
+def shipped(infos):
+    """The newest merged pull requests across my public repositories."""
+    if os.environ.get("REPO_DATA_FILE"):  # offline testing
+        return None
+    merged = []
+    for info, title in shown_repos(infos):
+        if (NOW - as_dt(info["pushed_at"])).days > SHIPPED_DAYS:
+            continue
+        try:
+            pulls = api(f"/repos/{OWNER}/{info['name']}/pulls?state=closed&sort=updated&direction=desc&per_page=30")
+        except Exception as err:  # one unreachable repo should not stop the refresh
+            print(f"Skipped pull requests of {info['name']}: {err}")
+            continue
+        merged += [(as_dt(p["merged_at"]), title, p) for p in pulls if p.get("merged_at")]
+    if not merged:
+        return None
+    merged.sort(key=lambda x: x[0], reverse=True)
+    rows, per_repo = [], {}
+    for d, title, p in merged:
+        per_repo[title] = per_repo.get(title, 0) + 1
+        if per_repo[title] <= SHIPPED_PER_REPO and len(rows) < SHIPPED_ROWS:
+            rows.append(f"- 🔀 **{day(d)}** · {cell(title)}: [{cell(p['title'])}]({p['html_url']})")
+    out = rows
+    out.append(f"\n<sub>Merged pull requests from all my public repositories, newest first (up to {SHIPPED_PER_REPO} per repository).</sub>")
+    return "\n".join(out)
+
+
 def repos(infos):
     cfg = json.loads((ROOT / "repos.json").read_text())
     listed = {r["name"]: r for r in cfg["repos"]}
@@ -202,6 +305,13 @@ def main():
     infos = all_repos()
     pushed = {i["name"]: i["pushed_at"] for i in infos if not i.get("private")}
     new = fill(text, "REPOS", repos(infos))
+    ships = shipped(infos)
+    if ships:
+        new = fill(new, "SHIPPED", ships)
+    if (FIBUB / "src" / "tools").exists():
+        new = fill(new, "FIBUB", fibub())
+    else:
+        print(f"fibub checkout not found at {FIBUB}; the fibub block was left as it is")
     if SITE.exists():
         log = sorted(collection("log"), key=lambda x: as_dt(x[1]["time"]), reverse=True)
         new = fill(new, "FEATURED", featured(log, pushed))

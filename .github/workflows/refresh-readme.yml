@@ -1,7 +1,8 @@
 name: Refresh profile README
 
 # Rebuilds the projects, activity, writing and repository sections of README.md
-# from nihalsulaiman.com's content files and the GitHub API. Public repo, so no
+# from nihalsulaiman.com's and fibub's content files and the GitHub API
+# (merged pull requests across all public repos). Public repo, so no
 # Actions minutes are billed. Commits only when something changed.
 on:
   schedule:
@@ -30,6 +31,15 @@ jobs:
           repository: nihalunfc/nihalunfc.github.io
           path: site
           sparse-checkout: src/content
+      - name: Check out fibub content
+        uses: actions/checkout@v4
+        with:
+          repository: nihalunfc/fibub
+          path: fibub
+          sparse-checkout: |
+            src/tools
+            src/blog
+            src/courses
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -38,6 +48,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SITE_DIR: site
+          FIBUB_DIR: fibub
       - name: Commit if changed
         run: |
           if git diff --quiet -- README.md; then echo "No changes"; exit 0; fi
