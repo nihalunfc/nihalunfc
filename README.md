@@ -24,7 +24,7 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 | | |
 | :-- | :-- |
 | 💼 **Now** | Data Engineer (remote) at Shipd by DataCurve, building training data and verified coding challenges for AI coding agents |
-| 🛠️ **Building** | [Self-healing pipelines](https://nihalsulaiman.com/projects/self-healing-pipelines/): a decentralised crew of AI agents that fixes ETL failures (MIT); turning my BI tools into real ETL pipelines on Azure SQL Database |
+| 🛠️ **Building** | [Self-healing pipelines](https://nihalsulaiman.com/projects/self-healing-pipelines/): a decentralised crew of AI agents that fixes ETL failures (MIT); turning my BI tools into real ETL pipelines on Azure SQL Database; [fibub.com](https://fibub.com/), my open-source site of free in-browser tools |
 | 📚 **Learning** | T-SQL, Power BI / DAX and dbt; Spark, Google Cloud and Kafka through my own [Data at Scale](https://nihalsulaiman.com/learn/big-data-cloud/) course |
 | 🎯 **Looking for** | Data analyst, BI developer, data engineer or data science roles in Ontario (full-time, part-time or internship) |
 
@@ -37,14 +37,34 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | **Swarm Intelligence ⭐ flagship**<br><sub>One multi-agent engine where every battery, drone or hotel system decides for itself and the group still acts as one team. 83% 3D fluid fit on chimney swifts, held out, with one term; −1,233 MW Ontario 2025 annual peak with the 2028 contracted fleet (rule: −727 MW); 704 MW average peak cut over 10 seeds (best possible 949 MW); $211k yearly saving over 5 seeds (peak-alert rule: $252k); 10.8% grid demand swings cut vs 9.1% best rule, 6.8% MPC; −86% close aircraft pairs in simulation; χ² −5 to −7 swarm models fit as well as ΛCDM; 25 real datasets in 7 groups (21 swarms, 4 cosmic); 87.2% forest saved in test fires.</sub> | , Crisis management, Energy, Hospitality, Science | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Oct 2026 | Nov 2026 | [Grid batteries](https://nihalsulaiman.com/swarm/grid-batteries/) · [Wildfire drones](https://nihalsulaiman.com/swarm/wildfire-drones/) · [Hotel operations](https://nihalsulaiman.com/swarm/hotel-operations/) · [How it works](https://nihalsulaiman.com/swarm/) |
 | **Business intelligence toolkit**<br><sub>One data model, one set of quality checks and a dozen decision tools for pricing, forecasting, scheduling and reporting, built once and fitted to each sector as an edition.</sub> | Hospitality | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Oct 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/tools/revenue-command-centre/hotels/) · [Write-up](https://nihalsulaiman.com/projects/bi-toolkit/) · [Code](https://github.com/nihalunfc/hotel-business) |
-| **Swarm Intelligence research**<br><sub>My flagship. One open-source multi-agent engine, tested against strong rules and the best possible result over many training seeds, and written up as a research paper. Applied to energy grids, oil and gas, and wildfires.</sub> |  | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Oct 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/swarm/) · [Write-up](https://nihalsulaiman.com/projects/swarm-research/) · [Code](https://github.com/nihalunfc/swarm-intelligence) |
 | **Natural swarm study**<br><sub>Working out the rules real swarms follow from measured data only, from fish schools and bird flocks to crowds, epidemics and wildfires, then one general swarm law and fluid-like equations to ease bottlenecks in transport, logistics and air traffic.</sub> | Science | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Nov 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/swarm/bird-flocks/) · [Write-up](https://nihalsulaiman.com/projects/natural-swarm-study/) |
+| **Swarm Intelligence research**<br><sub>My flagship. One open-source multi-agent engine, tested against strong rules and the best possible result over many training seeds, and written up as a research paper. Applied to energy grids, oil and gas, and wildfires.</sub> |  | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Oct 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/swarm/) · [Write-up](https://nihalsulaiman.com/projects/swarm-research/) · [Code](https://github.com/nihalunfc/swarm-intelligence) |
 | **Self-healing pipelines**<br><sub>A daily ETL pipeline looked after by a decentralised crew of nine AI agents with no boss. They find, fix, test and re-run most failures by themselves, and every step can be undone.</sub> |  | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Nov 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/projects/self-healing-pipelines/compare/) · [Write-up](https://nihalsulaiman.com/projects/self-healing-pipelines/) |
 | **BI toolkit, hospitality edition**<br><sub>A star-schema warehouse of 640,000 bookings, ten automated data-quality checks, a revenue command centre, a staff schedule builder and eleven free tools, built for hotels first.</sub> | Hospitality | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Oct 2026 | Nov 2026 | [Live](https://nihalsulaiman.com/tools/revenue-command-centre/hotels/) · [Write-up](https://nihalsulaiman.com/projects/hospitality-bi/) · [Code](https://github.com/nihalunfc/hotel-business) |
 | **Data at Scale (course)**<br><sub>A readable course in big data, cloud and streaming: Spark and PySpark, Google Cloud (GCS, BigQuery, Dataproc, Airflow), Druid, Bigtable and Elasticsearch, Kafka, data platforms for AI and ML, and how retail media and ad measurement use all of it.</sub> | Teaching | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Nov 2026 | Nov 2026 | [Start learning](https://nihalsulaiman.com/learn/big-data-cloud/) |
 | **Pipeline to Dashboard (course)**<br><sub>A 7-week course in ETL and BI: from pulling data out of email, shared drives and APIs to a warehouse, dbt models and dashboards people trust. Each week ends with a project you can put on GitHub.</sub> | Teaching | <img src="https://img.shields.io/badge/-Live-16a34a?style=flat-square" alt="Live"> | Nov 2026 | Nov 2026 | [Start learning](https://nihalsulaiman.com/learn/etl-course/) |
 | **WARL wildfire drone swarm**<br><sub>Decentralised drones trained with deep Q-learning to route to a fire's choke points, with a live map dashboard and an explainable-AI chatbot. Built for the GDG on Campus Build with AI 2026 hackathon.</sub> | Crisis management | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Sep 2026 | Sep 2026 | [Live](https://nihalsulaiman.com/swarm/wildfire-drones/) · [Write-up](https://nihalsulaiman.com/projects/warl-wildfire/) · [Code](https://github.com/nihalunfc/GDGCHackathon2026) |
 <!-- FEATURED:END -->
+
+## 🫧 fibub.com: free tools that run in the browser
+
+My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free In-Browser Utility Bubble): practical tools that fill the gaps people and workplaces have, built with Astro and TypeScript, served from a Cloudflare Worker, with a privacy-first public usage counter whose daily counts are exported to CSV by a scheduled GitHub Action.
+
+<!-- FIBUB:START -->
+**1,027 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **399 articles** and **1 free course**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
+
+| Newest tools | Latest articles |
+| :-- | :-- |
+| [Split sheet](https://fibub.com/everyday/split-sheet-maker/) <sub>#T1049</sub> | [How to apply for EI in Canada: who qualifies and each step](https://fibub.com/blog/life/how-to-apply-for-ei-canada/) <sub>· 19 Nov 2026</sub> |
+| [Royalty estimator](https://fibub.com/everyday/streaming-royalties/) <sub>#T1048</sub> | [GTA 6: download size, predicted cheat codes and console vs PC cost](https://fibub.com/blog/together/gta-6-download-size-cheats-console-vs-pc-cost/) <sub>· 19 Nov 2026</sub> |
+| [Release checklist](https://fibub.com/everyday/release-checklist/) <sub>#T1047</sub> | [Wind potential at Whittlesea, South Africa: Weibull from mean speed and power](https://fibub.com/blog/discoveries/whittlesea-wind-weibull-power-density/) <sub>· 16 Nov 2026</sub> |
+| [Tab maker](https://fibub.com/everyday/chord-diagram-maker/) <sub>#T1046</sub> | [Fault permeability in Westerly granite mapped from pore pressures](https://fibub.com/blog/discoveries/westerly-granite-fault-transmissivity-pore-pressure-inversion/) <sub>· 16 Nov 2026</sub> |
+| [Chord transposer](https://fibub.com/everyday/chord-transposer/) <sub>#T1045</sub> | [Variable-speed pumping stations: CFD, junction losses and the affinity laws](https://fibub.com/blog/discoveries/variable-speed-pumping-station-cfd-junction-loss-affinity-laws/) <sub>· 16 Nov 2026</sub> |
+
+📚 **Course:** [Offline AI: run AI models on your own computer](https://fibub.com/learn/courses/offline-ai/) <sub>· 54 of 119 lessons live</sub>
+
+<sub><a href="https://fibub.com/">fibub.com</a> · <a href="https://github.com/nihalunfc/fibub">Code</a> (Apache 2.0) · <a href="https://fibub.com/blog/">Blog</a></sub>
+<!-- FIBUB:END -->
 
 ## 🕒 Recent activity
 
@@ -58,6 +78,22 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 
 <sub>From my <a href="https://nihalsulaiman.com/log/">activity log</a>, where every piece of work is recorded as it happens.</sub>
 <!-- ACTIVITY:END -->
+
+## 🔀 Shipped across my repositories
+
+<!-- SHIPPED:START -->
+- 🔀 **19 Nov 2026** · fibub.com: [Blog: Life guides section, first guide on applying for EI in Canada](https://github.com/nihalunfc/fibub/pull/151)
+- 🔀 **19 Nov 2026** · fibub.com: [Offline AI course: Part B, hardware and prices (Modules 4 to 6)](https://github.com/nihalunfc/fibub/pull/150)
+- 🔀 **19 Nov 2026** · fibub.com: [Blog: GTA 6 download size, predicted cheat codes and console vs PC cost](https://github.com/nihalunfc/fibub/pull/148)
+- 🔀 **17 Nov 2026** · nihalsulaiman.com: [Bird flock study: 3D swift fit and real bottleneck results](https://github.com/nihalunfc/nihalunfc.github.io/pull/25)
+- 🔀 **17 Nov 2026** · nihalsulaiman.com: [Natural swarm study: add jackdaw, pigeon and chimney swift results](https://github.com/nihalunfc/nihalunfc.github.io/pull/24)
+- 🔀 **17 Nov 2026** · nihalsulaiman.com: [Canadian energy swarm page: Ontario results at real fleet size](https://github.com/nihalunfc/nihalunfc.github.io/pull/23)
+- 🔀 **05 Nov 2026** · Hospitality BI portfolio: [Add design for the hotel triage agent crew](https://github.com/nihalunfc/hotel-business/pull/3)
+- 🔀 **05 Nov 2026** · Hospitality BI portfolio: [Move the live pages to nihalsulaiman.com; docs/ becomes redirects](https://github.com/nihalunfc/hotel-business/pull/2)
+- 🔀 **02 Nov 2026** · Hospitality BI portfolio: [Add AI workflow kit: Claude Code rules, ETL triage skill, read-only SQL runner](https://github.com/nihalunfc/hotel-business/pull/1)
+
+<sub>Merged pull requests from all my public repositories, newest first (up to 3 per repository).</sub>
+<!-- SHIPPED:END -->
 
 ## ✍️ Latest writing
 
@@ -76,18 +112,12 @@ Only finished or in-progress work is listed. Dates come straight from GitHub, an
 <!-- REPOS:START -->
 | Repository | Status | Language | Started | Last updated | Links |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **fibub**<br><sub>New work, details coming soon</sub> | <img src="https://img.shields.io/badge/-New-7c3aed?style=flat-square" alt="New"> | Astro | Nov 2026 | 18 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) |
-| **Swarm Intelligence engine**<br><sub>The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Jul 2026 | 17 Nov 2026 | [Code](https://github.com/nihalunfc/swarm-intelligence) · [Live demos](https://nihalsulaiman.com/swarm/) |
+| **fibub.com**<br><sub>1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro, TypeScript | Nov 2026 | 19 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) · [Live](https://fibub.com/) |
 | **nihalsulaiman.com**<br><sub>Portfolio, blog, free BI tools and a 7-week ETL course (Astro, GitHub Actions)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro | Oct 2026 | 17 Nov 2026 | [Code](https://github.com/nihalunfc/nihalunfc.github.io) · [Live](https://nihalsulaiman.com/) |
 | **Hospitality BI portfolio**<br><sub>Star-schema warehouse of 640k bookings, 10 data-quality checks, revenue command centre, staff schedule builder</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Python, SQL | Feb 2026 | 05 Nov 2026 | [Code](https://github.com/nihalunfc/hotel-business) · [Live](https://nihalsulaiman.com/projects/hospitality-bi/overview/) |
-| **Enveda CASMI 2026**<br><sub>Molecule identification from mass spectra, with a leak-free 300-structure hold-out</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Sep 2026 | 19 Sep 2026 | [Code](https://github.com/nihalunfc/CASMI-2026) · [Write-up](https://nihalsulaiman.com/projects/casmi-2026/) |
-| **WARL wildfire drone swarm**<br><sub>Deep Q-learning drone swarm with a live map dashboard and a Gemini explainer chatbot (hackathon)</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Jupyter Notebook | Aug 2026 | 01 Sep 2026 | [Code](https://github.com/nihalunfc/GDGCHackathon2026) · [Write-up](https://nihalsulaiman.com/projects/warl-wildfire/) |
-| **Kaggle competitions**<br><sub>Notebooks for live competitions: Name That LLM, Squares in Squares, Smart Buildings</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | May 2026 | 28 Aug 2026 | [Code](https://github.com/nihalunfc/kaggle) · [Write-up](https://nihalsulaiman.com/projects/kaggle/) |
-| **MALLORN TDE classification**<br><sub>Physics-informed features to classify tidal disruption events; top 15% finish</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Python | Feb 2026 | 01 Feb 2026 | [Code](https://github.com/nihalunfc/MALLORN-TDE-Classification) |
-| **CAFA protein function**<br><sub>Memory-safe pipeline using the ESM-2 transformer for multi-label protein function prediction</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Python | Jan 2026 | 24 Jan 2026 | [Code](https://github.com/nihalunfc/cafa-protein-deep-learning) |
 <!-- REPOS:END -->
 
-<sub>This page refreshes itself every day from GitHub and <a href="https://nihalsulaiman.com/">nihalsulaiman.com</a>.</sub>
+<sub>This page refreshes itself every day from GitHub, <a href="https://nihalsulaiman.com/">nihalsulaiman.com</a> and <a href="https://fibub.com/">fibub.com</a>.</sub>
 
 ---
 
@@ -147,6 +177,8 @@ Only finished or in-progress work is listed. Dates come straight from GitHub, an
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![SAS](https://img.shields.io/badge/SAS-1A5EA8?style=flat-square)
 
