@@ -20,6 +20,15 @@
       "language": "Astro"
     },
     {
+      "name": "fibub",
+      "title": "fibub.com",
+      "what": "1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)",
+      "status": "In progress",
+      "demo": "https://fibub.com/",
+      "demo_label": "Live",
+      "language": "Astro, TypeScript"
+    },
+    {
       "name": "swarm-intelligence",
       "title": "Swarm Intelligence engine",
       "what": "The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper",
