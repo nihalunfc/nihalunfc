@@ -25,7 +25,7 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 | :-- | :-- |
 | 💼 **Now** | Data Engineer (remote) at Shipd by DataCurve, building training data and verified coding challenges for AI coding agents |
 | 🛠️ **Building** | [Self-healing pipelines](https://nihalsulaiman.com/projects/self-healing-pipelines/): a decentralised crew of AI agents that fixes ETL failures (MIT); turning my BI tools into real ETL pipelines on Azure SQL Database |
-| 📚 **Learning** | T-SQL, Power BI / DAX and dbt; Spark, Google Cloud and Kafka through my own [Data at Scale](https://nihalsulaiman.com/learn/big-data-cloud/) course |
+| 📚 **Learning** | T-SQL, Power BI / DAX and dbt; Spark, Google Cloud and Kafka through my own [Data at Scale](https://fibub.com/learn/courses/data-at-scale/) course on fibub |
 | 🎯 **Looking for** | Data analyst, BI developer, data engineer or data science roles in Ontario (full-time, part-time or internship) |
 
 ---
