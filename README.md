@@ -75,11 +75,11 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 
 <!-- ACTIVITY:START -->
 - ✅ **22 Nov 2026** · Portfolio site: [Simplified this site; tools and courses now live on fibub](https://nihalsulaiman.com/)
+- 🔧 **22 Nov 2026** · Courses: [IIT JAM Physics reaches 53 of 58 lessons on fibub](https://fibub.com/learn/courses/iit-jam-physics/)
 - ✅ **22 Nov 2026** · Courses: [CELPIP and TOEFL practice rooms and timed tests on fibub](https://fibub.com/learn/courses/celpip/practice/)
 - 🔧 **22 Nov 2026** · Courses: [Cosmology from A to Z, Module 3 "Einstein's universe" live](https://fibub.com/learn/courses/cosmology/)
 - ✅ **22 Nov 2026** · Courses: [Opened SQL for analysts and Data modelling on fibub](https://fibub.com/learn/courses/sql/)
 - ✅ **22 Nov 2026** · Courses: [Opened GRE prep on fibub, all 31 lessons live](https://fibub.com/learn/courses/gre/)
-- ✅ **22 Nov 2026** · Courses: [Finished CELPIP and TOEFL preparation on fibub](https://fibub.com/learn/courses/celpip/)
 
 <sub>From my <a href="https://nihalsulaiman.com/log/">activity log</a>, where every piece of work is recorded as it happens.</sub>
 <!-- ACTIVITY:END -->
