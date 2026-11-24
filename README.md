@@ -90,15 +90,15 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free In-Browser Utility Bubble): practical tools that fill the gaps people and workplaces have, built with Astro and TypeScript, served from a Cloudflare Worker, with a privacy-first public usage counter whose daily counts are exported to CSV by a scheduled GitHub Action.
 
 <!-- FIBUB:START -->
-**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **407 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
+**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **717 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
 
 | Newest tools | Latest articles |
 | :-- | :-- |
-| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [How to make a passport photo at home and print it](https://fibub.com/blog/guides/passport-photo/) <sub>· 24 Nov 2026</sub> |
-| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [Neutrinos and Cherenkov light: the road to the 2026 Physics Nobel](https://fibub.com/blog/nobel/physics-2026-neutrinos-cherenkov-ice/) <sub>· 19 Nov 2026</sub> |
-| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [Where cosmic neutrinos come from: blazars, NGC 1068 and the Milky Way](https://fibub.com/blog/nobel/physics-2026-neutrino-sources/) <sub>· 19 Nov 2026</sub> |
-| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [How IceCube was built and found neutrinos from deep space](https://fibub.com/blog/nobel/physics-2026-icecube-cosmic-neutrinos/) <sub>· 19 Nov 2026</sub> |
-| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [How nerve cells signal, and the green alga that taught them to see light](https://fibub.com/blog/nobel/medicine-2026-neurons-algae-light/) <sub>· 19 Nov 2026</sub> |
+| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [ZnCr2O4 nanoparticles: checking a spinel cell from fringes and SAED rings](https://fibub.com/blog/discoveries/zinc-chromite-spinel-cell-from-lattice-fringe-saed/) <sub>· 24 Nov 2026</sub> |
+| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [Zebrafish embryos at 26 °C run hours behind: the Kimmel formula tested](https://fibub.com/blog/discoveries/zebrafish-embryo-26-vs-28-degrees-kimmel-development-delay/) <sub>· 24 Nov 2026</sub> |
+| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [A new niobium mineral from Bayan Obo: could a simple key have named it?](https://fibub.com/blog/discoveries/xianhuaite-ce-new-mineral-simple-key-identification/) <sub>· 24 Nov 2026</sub> |
+| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [Can a 3.7 % fall in EMG median frequency be seen in one window?](https://fibub.com/blog/discoveries/wrist-extensor-median-frequency-esports-emg-welch-window-detectability/) <sub>· 24 Nov 2026</sub> |
+| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [Wind-packed snow drift density and the water it hides](https://fibub.com/blog/discoveries/wind-packed-snow-drift-density-swe-underestimation/) <sub>· 24 Nov 2026</sub> |
 
 📚 **Course:** [Astronomy: the science of stars, planets and galaxies](https://fibub.com/learn/courses/astronomy/) <sub>· 31 lessons live</sub>
 
