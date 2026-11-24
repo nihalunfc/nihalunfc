@@ -90,17 +90,65 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free In-Browser Utility Bubble): practical tools that fill the gaps people and workplaces have, built with Astro and TypeScript, served from a Cloudflare Worker, with a privacy-first public usage counter whose daily counts are exported to CSV by a scheduled GitHub Action.
 
 <!-- FIBUB:START -->
-**1,027 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **399 articles** and **1 free course**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
+**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **407 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
 
 | Newest tools | Latest articles |
 | :-- | :-- |
-| [Split sheet](https://fibub.com/everyday/split-sheet-maker/) <sub>#T1049</sub> | [How to apply for EI in Canada: who qualifies and each step](https://fibub.com/blog/life/how-to-apply-for-ei-canada/) <sub>· 19 Nov 2026</sub> |
-| [Royalty estimator](https://fibub.com/everyday/streaming-royalties/) <sub>#T1048</sub> | [GTA 6: download size, predicted cheat codes and console vs PC cost](https://fibub.com/blog/together/gta-6-download-size-cheats-console-vs-pc-cost/) <sub>· 19 Nov 2026</sub> |
-| [Release checklist](https://fibub.com/everyday/release-checklist/) <sub>#T1047</sub> | [Wind potential at Whittlesea, South Africa: Weibull from mean speed and power](https://fibub.com/blog/discoveries/whittlesea-wind-weibull-power-density/) <sub>· 16 Nov 2026</sub> |
-| [Tab maker](https://fibub.com/everyday/chord-diagram-maker/) <sub>#T1046</sub> | [Fault permeability in Westerly granite mapped from pore pressures](https://fibub.com/blog/discoveries/westerly-granite-fault-transmissivity-pore-pressure-inversion/) <sub>· 16 Nov 2026</sub> |
-| [Chord transposer](https://fibub.com/everyday/chord-transposer/) <sub>#T1045</sub> | [Variable-speed pumping stations: CFD, junction losses and the affinity laws](https://fibub.com/blog/discoveries/variable-speed-pumping-station-cfd-junction-loss-affinity-laws/) <sub>· 16 Nov 2026</sub> |
+| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [How to make a passport photo at home and print it](https://fibub.com/blog/guides/passport-photo/) <sub>· 24 Nov 2026</sub> |
+| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [Neutrinos and Cherenkov light: the road to the 2026 Physics Nobel](https://fibub.com/blog/nobel/physics-2026-neutrinos-cherenkov-ice/) <sub>· 19 Nov 2026</sub> |
+| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [Where cosmic neutrinos come from: blazars, NGC 1068 and the Milky Way](https://fibub.com/blog/nobel/physics-2026-neutrino-sources/) <sub>· 19 Nov 2026</sub> |
+| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [How IceCube was built and found neutrinos from deep space](https://fibub.com/blog/nobel/physics-2026-icecube-cosmic-neutrinos/) <sub>· 19 Nov 2026</sub> |
+| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [How nerve cells signal, and the green alga that taught them to see light](https://fibub.com/blog/nobel/medicine-2026-neurons-algae-light/) <sub>· 19 Nov 2026</sub> |
 
-📚 **Course:** [Offline AI: run AI models on your own computer](https://fibub.com/learn/courses/offline-ai/) <sub>· 54 of 119 lessons live</sub>
+📚 **Course:** [Astronomy: the science of stars, planets and galaxies](https://fibub.com/learn/courses/astronomy/) <sub>· 31 lessons live</sub>
+
+📚 **Course:** [CELPIP preparation: a complete free course for CELPIP-General and LS](https://fibub.com/learn/courses/celpip/) <sub>· 42 lessons live</sub>
+
+📚 **Course:** [Cosmology from A to Z: the story of the universe, explained simply](https://fibub.com/learn/courses/cosmology/) <sub>· 97 lessons live</sub>
+
+📚 **Course:** [CSIR NET Physical Sciences: the complete free course for JRF](https://fibub.com/learn/courses/csir-net-physics/) <sub>· 36 lessons live</sub>
+
+📚 **Course:** [CUET (UG) preparation: the complete free course](https://fibub.com/learn/courses/cuet/) <sub>· 100 lessons live</sub>
+
+📚 **Course:** [Data modelling and warehousing: star schemas, facts, dimensions and history](https://fibub.com/learn/courses/data-modelling/) <sub>· 38 lessons live</sub>
+
+📚 **Course:** [Data storytelling: charts, KPIs and presentations that lead to decisions](https://fibub.com/learn/courses/data-storytelling/) <sub>· 26 lessons live</sub>
+
+📚 **Course:** [Engineering entrance: Physics, Chemistry and Maths for KEAM, CUSAT, COMEDK, JEE Main and JEE Advanced](https://fibub.com/learn/courses/engineering-entrance/) <sub>· 164 lessons live</sub>
+
+📚 **Course:** [GATE Physics (PH): the complete free course, from MSc basics to top rank](https://fibub.com/learn/courses/gate-physics/) <sub>· 81 lessons live</sub>
+
+📚 **Course:** [GMAT prep from zero: Quant, Verbal and Data Insights](https://fibub.com/learn/courses/gmat/) <sub>· 42 lessons live</sub>
+
+📚 **Course:** [GRE prep from zero: Quant, Verbal and the Issue essay](https://fibub.com/learn/courses/gre/) <sub>· 31 lessons live</sub>
+
+📚 **Course:** [IELTS preparation: Academic and General Training, band 5 to band 8+](https://fibub.com/learn/courses/ielts/) <sub>· 77 lessons live</sub>
+
+📚 **Course:** [IIT JAM Physics: the complete free course, from basics to top rank](https://fibub.com/learn/courses/iit-jam-physics/) <sub>· 58 lessons live</sub>
+
+📚 **Course:** [LSAT prep: logical reasoning and reading, explained simply, with original practice](https://fibub.com/learn/courses/lsat/) <sub>· 31 lessons live</sub>
+
+📚 **Course:** [Medical entrance: Physics, Chemistry and Biology for NEET UG](https://fibub.com/learn/courses/medical-entrance/) <sub>· 66 lessons live</sub>
+
+📚 **Course:** [From a straight line to an LLM: data analytics and machine learning foundations](https://fibub.com/learn/courses/ml-foundations/) <sub>· 66 lessons live</sub>
+
+📚 **Course:** [Offline AI: run AI models on your own computer](https://fibub.com/learn/courses/offline-ai/) <sub>· 119 lessons live</sub>
+
+📚 **Course:** [Python pandas for analysis: clean, group, join and reshape data](https://fibub.com/learn/courses/pandas/) <sub>· 49 lessons live</sub>
+
+📚 **Course:** [Power BI and DAX: from raw data to a dashboard managers use](https://fibub.com/learn/courses/power-bi/) <sub>· 45 lessons live</sub>
+
+📚 **Course:** [Digital SAT prep: every skill, explained simply, with thousands of practice questions](https://fibub.com/learn/courses/sat/) <sub>· 43 lessons live</sub>
+
+📚 **Course:** [Sky watching: from your own eyes to telescopes and astrophotography](https://fibub.com/learn/courses/sky-watching/) <sub>· 38 lessons live</sub>
+
+📚 **Course:** [SQL for analysts: from your first SELECT to window functions](https://fibub.com/learn/courses/sql/) <sub>· 52 lessons live</sub>
+
+📚 **Course:** [Start a startup in India, Canada or the USA: idea to official business](https://fibub.com/learn/courses/startup/) <sub>· 72 lessons live</sub>
+
+📚 **Course:** [Statistics for analysts: from averages to A/B tests](https://fibub.com/learn/courses/statistics/) <sub>· 50 lessons live</sub>
+
+📚 **Course:** [TOEFL iBT preparation: a complete free course for the 2026 test](https://fibub.com/learn/courses/toefl/) <sub>· 32 lessons live</sub>
 
 <sub><a href="https://fibub.com/">fibub.com</a> · <a href="https://github.com/nihalunfc/fibub">Code</a> (Apache 2.0) · <a href="https://fibub.com/blog/">Blog</a></sub>
 <!-- FIBUB:END -->
@@ -121,15 +169,16 @@ My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free I
 ## 🔀 Shipped across my repositories
 
 <!-- SHIPPED:START -->
-- 🔀 **19 Nov 2026** · fibub.com: [Blog: Life guides section, first guide on applying for EI in Canada](https://github.com/nihalunfc/fibub/pull/151)
-- 🔀 **19 Nov 2026** · fibub.com: [Offline AI course: Part B, hardware and prices (Modules 4 to 6)](https://github.com/nihalunfc/fibub/pull/150)
-- 🔀 **19 Nov 2026** · fibub.com: [Blog: GTA 6 download size, predicted cheat codes and console vs PC cost](https://github.com/nihalunfc/fibub/pull/148)
-- 🔀 **17 Nov 2026** · nihalsulaiman.com: [Bird flock study: 3D swift fit and real bottleneck results](https://github.com/nihalunfc/nihalunfc.github.io/pull/25)
-- 🔀 **17 Nov 2026** · nihalsulaiman.com: [Natural swarm study: add jackdaw, pigeon and chimney swift results](https://github.com/nihalunfc/nihalunfc.github.io/pull/24)
-- 🔀 **17 Nov 2026** · nihalsulaiman.com: [Canadian energy swarm page: Ontario results at real fleet size](https://github.com/nihalunfc/nihalunfc.github.io/pull/23)
+- 🔀 **24 Nov 2026** · fibub.com: [Blog: 137 new research articles, a public record of every paper we check, and 4 tool fixes](https://github.com/nihalunfc/fibub/pull/262)
+- 🔀 **24 Nov 2026** · fibub.com: [Review decisions: India ICAO photo, GATE 2027 syllabus, glucose Tm, space scoring, Mac memory and more](https://github.com/nihalunfc/fibub/pull/261)
+- 🔀 **24 Nov 2026** · fibub.com: [Blog: fix peak UV index in the Belsk UV article](https://github.com/nihalunfc/fibub/pull/260)
+- 🔀 **23 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 8 Science and Maths](https://github.com/nihalunfc/nihalunfc.github.io/pull/67)
+- 🔀 **23 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 11 and Class 12 Maths](https://github.com/nihalunfc/nihalunfc.github.io/pull/66)
+- 🔀 **23 Nov 2026** · Swarm Intelligence engine: [Wildfire: rule-led hybrid swarm at 1,000 drones](https://github.com/nihalunfc/swarm-intelligence/pull/27)
+- 🔀 **22 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 9 and Class 12 science](https://github.com/nihalunfc/nihalunfc.github.io/pull/65)
+- 🔀 **21 Nov 2026** · Swarm Intelligence engine: [First board gate: training the wildfire swarm 2x longer is rejected](https://github.com/nihalunfc/swarm-intelligence/pull/26)
+- 🔀 **21 Nov 2026** · Swarm Intelligence engine: [Board crew: ready for a live LLM run (one task per run, skip paused apps, stricter gate, cost print)](https://github.com/nihalunfc/swarm-intelligence/pull/25)
 - 🔀 **05 Nov 2026** · Hospitality BI portfolio: [Add design for the hotel triage agent crew](https://github.com/nihalunfc/hotel-business/pull/3)
-- 🔀 **05 Nov 2026** · Hospitality BI portfolio: [Move the live pages to nihalsulaiman.com; docs/ becomes redirects](https://github.com/nihalunfc/hotel-business/pull/2)
-- 🔀 **02 Nov 2026** · Hospitality BI portfolio: [Add AI workflow kit: Claude Code rules, ETL triage skill, read-only SQL runner](https://github.com/nihalunfc/hotel-business/pull/1)
 
 <sub>Merged pull requests from all my public repositories, newest first (up to 3 per repository).</sub>
 <!-- SHIPPED:END -->
@@ -151,10 +200,15 @@ Only finished or in-progress work is listed. Dates come straight from GitHub, an
 <!-- REPOS:START -->
 | Repository | Status | Language | Started | Last updated | Links |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **fibub**<br><sub>New work, details coming soon</sub> | <img src="https://img.shields.io/badge/-New-7c3aed?style=flat-square" alt="New"> | JavaScript | Nov 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) |
+| **fibub.com**<br><sub>1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro, TypeScript | Nov 2026 | 24 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) · [Live](https://fibub.com/) |
 | **nihalsulaiman.com**<br><sub>Portfolio, blog, free BI tools and a 7-week ETL course (Astro, GitHub Actions)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro | Oct 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/nihalunfc.github.io) · [Live](https://nihalsulaiman.com/) |
 | **Swarm Intelligence engine**<br><sub>The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Jul 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/swarm-intelligence) · [Live demos](https://nihalsulaiman.com/swarm/) |
 | **Hospitality BI portfolio**<br><sub>Star-schema warehouse of 640k bookings, 10 data-quality checks, revenue command centre, staff schedule builder</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Python, SQL | Feb 2026 | 05 Nov 2026 | [Code](https://github.com/nihalunfc/hotel-business) · [Live](https://nihalsulaiman.com/projects/hospitality-bi/overview/) |
+| **Enveda CASMI 2026**<br><sub>Molecule identification from mass spectra, with a leak-free 300-structure hold-out</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Sep 2026 | 19 Sep 2026 | [Code](https://github.com/nihalunfc/CASMI-2026) · [Write-up](https://nihalsulaiman.com/projects/casmi-2026/) |
+| **WARL wildfire drone swarm**<br><sub>Deep Q-learning drone swarm with a live map dashboard and a Gemini explainer chatbot (hackathon)</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Jupyter Notebook | Aug 2026 | 01 Sep 2026 | [Code](https://github.com/nihalunfc/GDGCHackathon2026) · [Write-up](https://nihalsulaiman.com/projects/warl-wildfire/) |
+| **Kaggle competitions**<br><sub>Notebooks for live competitions: Name That LLM, Squares in Squares, Smart Buildings</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | May 2026 | 28 Aug 2026 | [Code](https://github.com/nihalunfc/kaggle) · [Write-up](https://nihalsulaiman.com/projects/kaggle/) |
+| **MALLORN TDE classification**<br><sub>Physics-informed features to classify tidal disruption events; top 15% finish</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Python | Feb 2026 | 01 Feb 2026 | [Code](https://github.com/nihalunfc/MALLORN-TDE-Classification) |
+| **CAFA protein function**<br><sub>Memory-safe pipeline using the ESM-2 transformer for multi-label protein function prediction</sub> | <img src="https://img.shields.io/badge/-Completed-16a34a?style=flat-square" alt="Completed"> | Python | Jan 2026 | 24 Jan 2026 | [Code](https://github.com/nihalunfc/cafa-protein-deep-learning) |
 <!-- REPOS:END -->
 
 <sub>This page refreshes itself every day from GitHub, <a href="https://nihalsulaiman.com/">nihalsulaiman.com</a> and <a href="https://fibub.com/">fibub.com</a>.</sub>
