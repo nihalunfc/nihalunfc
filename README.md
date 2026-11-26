@@ -90,15 +90,15 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free In-Browser Utility Bubble): practical tools that fill the gaps people and workplaces have, built with Astro and TypeScript, served from a Cloudflare Worker, with a privacy-first public usage counter whose daily counts are exported to CSV by a scheduled GitHub Action.
 
 <!-- FIBUB:START -->
-**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **717 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
+**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **719 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
 
 | Newest tools | Latest articles |
 | :-- | :-- |
-| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [ZnCr2O4 nanoparticles: checking a spinel cell from fringes and SAED rings](https://fibub.com/blog/discoveries/zinc-chromite-spinel-cell-from-lattice-fringe-saed/) <sub>· 24 Nov 2026</sub> |
-| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [Zebrafish embryos at 26 °C run hours behind: the Kimmel formula tested](https://fibub.com/blog/discoveries/zebrafish-embryo-26-vs-28-degrees-kimmel-development-delay/) <sub>· 24 Nov 2026</sub> |
-| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [A new niobium mineral from Bayan Obo: could a simple key have named it?](https://fibub.com/blog/discoveries/xianhuaite-ce-new-mineral-simple-key-identification/) <sub>· 24 Nov 2026</sub> |
-| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [Can a 3.7 % fall in EMG median frequency be seen in one window?](https://fibub.com/blog/discoveries/wrist-extensor-median-frequency-esports-emg-welch-window-detectability/) <sub>· 24 Nov 2026</sub> |
-| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [Wind-packed snow drift density and the water it hides](https://fibub.com/blog/discoveries/wind-packed-snow-drift-density-swe-underestimation/) <sub>· 24 Nov 2026</sub> |
+| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [Voyager 1 finds interstellar electron density steady at 0.147 per cm³](https://fibub.com/blog/discoveries/voyager-1-interstellar-electron-density-0-147-plasma-frequency/) <sub>· 26 Nov 2026</sub> |
+| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [Plants under Baffin Island ice caps date to more than 40,000 years](https://fibub.com/blog/discoveries/baffin-island-ice-caps-plants-40000-years-radiocarbon-limit/) <sub>· 26 Nov 2026</sub> |
+| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [ZnCr2O4 nanoparticles: checking a spinel cell from fringes and SAED rings](https://fibub.com/blog/discoveries/zinc-chromite-spinel-cell-from-lattice-fringe-saed/) <sub>· 24 Nov 2026</sub> |
+| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [Zebrafish embryos at 26 °C run hours behind: the Kimmel formula tested](https://fibub.com/blog/discoveries/zebrafish-embryo-26-vs-28-degrees-kimmel-development-delay/) <sub>· 24 Nov 2026</sub> |
+| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [A new niobium mineral from Bayan Obo: could a simple key have named it?](https://fibub.com/blog/discoveries/xianhuaite-ce-new-mineral-simple-key-identification/) <sub>· 24 Nov 2026</sub> |
 
 📚 **Course:** [Astronomy: the science of stars, planets and galaxies](https://fibub.com/learn/courses/astronomy/) <sub>· 31 lessons live</sub>
 
@@ -169,9 +169,9 @@ My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free I
 ## 🔀 Shipped across my repositories
 
 <!-- SHIPPED:START -->
+- 🔀 **26 Nov 2026** · fibub.com: [ArticlePipeline01: 2026-11-26 research articles](https://github.com/nihalunfc/fibub/pull/264)
 - 🔀 **24 Nov 2026** · fibub.com: [Blog: 137 new research articles, a public record of every paper we check, and 4 tool fixes](https://github.com/nihalunfc/fibub/pull/262)
 - 🔀 **24 Nov 2026** · fibub.com: [Review decisions: India ICAO photo, GATE 2027 syllabus, glucose Tm, space scoring, Mac memory and more](https://github.com/nihalunfc/fibub/pull/261)
-- 🔀 **24 Nov 2026** · fibub.com: [Blog: fix peak UV index in the Belsk UV article](https://github.com/nihalunfc/fibub/pull/260)
 - 🔀 **23 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 8 Science and Maths](https://github.com/nihalunfc/nihalunfc.github.io/pull/67)
 - 🔀 **23 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 11 and Class 12 Maths](https://github.com/nihalunfc/nihalunfc.github.io/pull/66)
 - 🔀 **23 Nov 2026** · Swarm Intelligence engine: [Wildfire: rule-led hybrid swarm at 1,000 drones](https://github.com/nihalunfc/swarm-intelligence/pull/27)
@@ -200,7 +200,7 @@ Only finished or in-progress work is listed. Dates come straight from GitHub, an
 <!-- REPOS:START -->
 | Repository | Status | Language | Started | Last updated | Links |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **fibub.com**<br><sub>1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro, TypeScript | Nov 2026 | 25 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) · [Live](https://fibub.com/) |
+| **fibub.com**<br><sub>1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro, TypeScript | Nov 2026 | 26 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) · [Live](https://fibub.com/) |
 | **nihalsulaiman.com**<br><sub>Portfolio, blog, free BI tools and a 7-week ETL course (Astro, GitHub Actions)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro | Oct 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/nihalunfc.github.io) · [Live](https://nihalsulaiman.com/) |
 | **Swarm Intelligence engine**<br><sub>The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Jul 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/swarm-intelligence) · [Live demos](https://nihalsulaiman.com/swarm/) |
 | **Hospitality BI portfolio**<br><sub>Star-schema warehouse of 640k bookings, 10 data-quality checks, revenue command centre, staff schedule builder</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Python, SQL | Feb 2026 | 05 Nov 2026 | [Code](https://github.com/nihalunfc/hotel-business) · [Live](https://nihalsulaiman.com/projects/hospitality-bi/overview/) |
