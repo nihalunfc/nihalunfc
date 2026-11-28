@@ -90,15 +90,15 @@ My background is a **Master's in Data Analytics** (2026) and an **MSc in Physics
 My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free In-Browser Utility Bubble): practical tools that fill the gaps people and workplaces have, built with Astro and TypeScript, served from a Cloudflare Worker, with a privacy-first public usage counter whose daily counts are exported to CSV by a scheduled GitHub Action.
 
 <!-- FIBUB:START -->
-**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **721 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
+**1,058 free tools** on 6 shelves (science, everyday, money, documents, vehicles and collecting), **372 interactive Learn pages** for school students, **723 articles** and **25 free courses**. Everything runs in the browser: no sign-up, no uploads, nothing stored about the visitor.
 
 | Newest tools | Latest articles |
 | :-- | :-- |
-| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [One positron held for a month in its quantum ground state at 156 GHz](https://fibub.com/blog/discoveries/one-positron-quantum-cyclotron-156-ghz-5-6-tesla-ground-state/) <sub>· 27 Nov 2026</sub> |
-| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [The closest quasar pair at cosmic dawn sits 5.56 kpc apart at redshift 6.08](https://fibub.com/blog/discoveries/close-quasar-pair-z-6-08-separation-5-6-kpc-0-98-arcsec/) <sub>· 27 Nov 2026</sub> |
-| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [Voyager 1 finds interstellar electron density steady at 0.147 per cm³](https://fibub.com/blog/discoveries/voyager-1-interstellar-electron-density-0-147-plasma-frequency/) <sub>· 26 Nov 2026</sub> |
-| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [Plants under Baffin Island ice caps date to more than 40,000 years](https://fibub.com/blog/discoveries/baffin-island-ice-caps-plants-40000-years-radiocarbon-limit/) <sub>· 26 Nov 2026</sub> |
-| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [ZnCr2O4 nanoparticles: checking a spinel cell from fringes and SAED rings](https://fibub.com/blog/discoveries/zinc-chromite-spinel-cell-from-lattice-fringe-saed/) <sub>· 24 Nov 2026</sub> |
+| [Ergometer Link](https://fibub.com/everyday/ergometer-link/) <sub>#T1080</sub> | [A primordial black hole inside a Sun-like star needs about 0.07 solar masses before it forms a disk](https://fibub.com/blog/discoveries/primordial-black-hole-inside-sun-like-star-atom-sized-horizon-disk-threshold/) <sub>· 28 Nov 2026</sub> |
+| [Live Trackers](https://fibub.com/everyday/live-trackers/) <sub>#T1079</sub> | [Masers once placed in the Milky Way's Norma arm may trace the bar's shock front, 4.3 kpc from the centre](https://fibub.com/blog/discoveries/norma-arm-masers-milky-way-bar-shock-front-4-3-kpc-kinematic-distance/) <sub>· 28 Nov 2026</sub> |
+| [Step Counter](https://fibub.com/everyday/step-counter/) <sub>#T1078</sub> | [One positron held for a month in its quantum ground state at 156 GHz](https://fibub.com/blog/discoveries/one-positron-quantum-cyclotron-156-ghz-5-6-tesla-ground-state/) <sub>· 27 Nov 2026</sub> |
+| [G-Force Meter](https://fibub.com/everyday/g-force-meter/) <sub>#T1077</sub> | [The closest quasar pair at cosmic dawn sits 5.56 kpc apart at redshift 6.08](https://fibub.com/blog/discoveries/close-quasar-pair-z-6-08-separation-5-6-kpc-0-98-arcsec/) <sub>· 27 Nov 2026</sub> |
+| [Speedometer](https://fibub.com/everyday/speedometer/) <sub>#T1076</sub> | [Voyager 1 finds interstellar electron density steady at 0.147 per cm³](https://fibub.com/blog/discoveries/voyager-1-interstellar-electron-density-0-147-plasma-frequency/) <sub>· 26 Nov 2026</sub> |
 
 📚 **Course:** [Astronomy: the science of stars, planets and galaxies](https://fibub.com/learn/courses/astronomy/) <sub>· 31 lessons live</sub>
 
@@ -169,9 +169,9 @@ My open-source side project ([fibub](https://github.com/nihalunfc/fibub), Free I
 ## 🔀 Shipped across my repositories
 
 <!-- SHIPPED:START -->
+- 🔀 **28 Nov 2026** · fibub.com: [Get fibub ready for Google Discover and News, plus scheduled publishing](https://github.com/nihalunfc/fibub/pull/263)
+- 🔀 **28 Nov 2026** · fibub.com: [ArticlePipeline01: 2026-11-28 research articles](https://github.com/nihalunfc/fibub/pull/266)
 - 🔀 **27 Nov 2026** · fibub.com: [ArticlePipeline01: 2026-11-27 research articles](https://github.com/nihalunfc/fibub/pull/265)
-- 🔀 **26 Nov 2026** · fibub.com: [ArticlePipeline01: 2026-11-26 research articles](https://github.com/nihalunfc/fibub/pull/264)
-- 🔀 **24 Nov 2026** · fibub.com: [Blog: 137 new research articles, a public record of every paper we check, and 4 tool fixes](https://github.com/nihalunfc/fibub/pull/262)
 - 🔀 **23 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 8 Science and Maths](https://github.com/nihalunfc/nihalunfc.github.io/pull/67)
 - 🔀 **23 Nov 2026** · nihalsulaiman.com: [Courses: NCERT Class 11 and Class 12 Maths](https://github.com/nihalunfc/nihalunfc.github.io/pull/66)
 - 🔀 **23 Nov 2026** · Swarm Intelligence engine: [Wildfire: rule-led hybrid swarm at 1,000 drones](https://github.com/nihalunfc/swarm-intelligence/pull/27)
@@ -200,7 +200,7 @@ Only finished or in-progress work is listed. Dates come straight from GitHub, an
 <!-- REPOS:START -->
 | Repository | Status | Language | Started | Last updated | Links |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **fibub.com**<br><sub>1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro, TypeScript | Nov 2026 | 27 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) · [Live](https://fibub.com/) |
+| **fibub.com**<br><sub>1,000+ free, open-source tools that run entirely in the browser, plus Learn pages, articles and courses (Astro, TypeScript, Cloudflare)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro, TypeScript | Nov 2026 | 28 Nov 2026 | [Code](https://github.com/nihalunfc/fibub) · [Live](https://fibub.com/) |
 | **nihalsulaiman.com**<br><sub>Portfolio, blog, free BI tools and a 7-week ETL course (Astro, GitHub Actions)</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Astro | Oct 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/nihalunfc.github.io) · [Live](https://nihalsulaiman.com/) |
 | **Swarm Intelligence engine**<br><sub>The multi-agent engine behind the grid, wildfire and hotel demos, with experiments and a paper</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Jupyter Notebook | Jul 2026 | 23 Nov 2026 | [Code](https://github.com/nihalunfc/swarm-intelligence) · [Live demos](https://nihalsulaiman.com/swarm/) |
 | **Hospitality BI portfolio**<br><sub>Star-schema warehouse of 640k bookings, 10 data-quality checks, revenue command centre, staff schedule builder</sub> | <img src="https://img.shields.io/badge/-In%20progress-2563eb?style=flat-square" alt="In progress"> | Python, SQL | Feb 2026 | 05 Nov 2026 | [Code](https://github.com/nihalunfc/hotel-business) · [Live](https://nihalsulaiman.com/projects/hospitality-bi/overview/) |
